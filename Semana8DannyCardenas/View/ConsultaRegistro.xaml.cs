@@ -38,7 +38,7 @@ namespace Semana8DannyCardenas.View
             var item = Obj.id.ToString();
             int ID = Convert.ToInt32(item);
 
-            try
+            try 
             {
                 Navigation.PushAsync(new Elemento(ID));
             }
